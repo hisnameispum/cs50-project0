@@ -1,41 +1,39 @@
-body{
-    background-color: #FFF496;
+body {
+  background-color: #FFF496;
 }
 
-.bg-color{
-    background-color: #FFF496;
+.bg-color {
+  background-color: #FFF496;
 }
 
-a{
-    text-decoration: none;
+a {
+  text-decoration: none;
 }
 
-h1,h2,h3{
-    padding: 2%;
-    text-align: center;
-    color: #512820;
-}
-p{
-    padding: 5px;
-    text-align: center;
-    font-size: 24px;
-    color: #512820;
-
+h1, h2, h3 {
+  padding: 2%;
+  text-align: center;
+  color: #512820;
 }
 
-
-img{
-    border-radius: 2%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 300px;
-    margin-bottom: 20px;
-
+p {
+  padding: 5px;
+  text-align: center;
+  font-size: 24px;
+  color: #512820;
 }
 
-.nav{
-    text-align: center;
+img {
+  border-radius: 2%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 300px;
+  margin-bottom: 20px;
+}
+
+.nav {
+  text-align: center;
 }
 
 ul {
@@ -58,14 +56,44 @@ li a {
 }
 
 li a:hover {
-  background-color:#F79256;
+  background-color: #F79256;
 }
 
-.social-img{
+.social-img {
   width: 200px;
   height: 200px;
-} 
+}
 
-.row{
+.row {
   padding-top: 50px;
 }
+
+table {
+  border-collapse: collapse;
+}
+
+#education {
+  margin: 0 auto;
+}
+
+tr, td {
+  padding: 5px 10px;
+  font-size: 18px;
+  margin: 2px;
+}
+
+@media (max-width: 600px) {
+  img {
+    border-radius: 2%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    margin-bottom: 20px;
+  }
+}
+#adjusted-text {
+  font-size: 16px;
+}
+
+/*# sourceMappingURL=style.css.map */
